@@ -2,7 +2,7 @@
 
 This repository is based on an article written by Claudia Nieuwenhuis and Daniel Cremers (https://vision.in.tum.de/_media/spezial/bib/nieuwenhuis-cremers-pami12.pdf). This article published in 2012 proposes a method for multi-label segmentation thanks to a statistical framework that takes into account the spatial variation of color distribution. 
 
-My implementation of the method is available in the "Interactive image segmentation" file. In this one you can find a \textit{Image\_seg\_main.py} file containing the python code and a notebook allowing to test the algorithm on an input image with given scribbles. 
+The \textit{Image\_seg\_main.py} file contains the python code and a notebook allowing to test the algorithm on an input image with given scribbles. 
 
 ## Interactive scribbling :
 To draw scribbles on the image, you have to run \textit{Get\_scribbles.py}. Before that, you have to choose the input image and the number of regions. The script will open a window with the input image. By clicking in two places, we can then draw a line allowing to label the pixels of this line in the first region. We can repeat this maneuver as many times as we want. Then to go to the next region we close the current window, and we draw new lines for the second region.
